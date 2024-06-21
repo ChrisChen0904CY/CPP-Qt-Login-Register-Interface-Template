@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "P:/QT_Templates/Welcome/build-WelcomePage-Desktop_Qt_6_6_1_MSVC2019_64bit-Debug/CMakeFiles/WelcomePage.dir/embed.manifest"

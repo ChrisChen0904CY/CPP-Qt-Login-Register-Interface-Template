@@ -1,0 +1,25 @@
+{
+	"BUILD_DIR" : "P:/QT_Templates/Welcome/build-WelcomePage-Desktop_Qt_6_6_1_MSVC2019_64bit-Debug/WelcomePage_autogen",
+	"CMAKE_BINARY_DIR" : "P:/QT_Templates/Welcome/build-WelcomePage-Desktop_Qt_6_6_1_MSVC2019_64bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "P:/QT_Templates/Welcome/build-WelcomePage-Desktop_Qt_6_6_1_MSVC2019_64bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "P:/QT_Templates/Welcome/WelcomePage",
+	"CMAKE_SOURCE_DIR" : "P:/QT_Templates/Welcome/WelcomePage",
+	"INCLUDE_DIR" : "P:/QT_Templates/Welcome/build-WelcomePage-Desktop_Qt_6_6_1_MSVC2019_64bit-Debug/WelcomePage_autogen/include",
+	"INPUTS" : 
+	[
+		"P:/QT_Templates/Welcome/WelcomePage/resources/Line_Password.png",
+		"P:/QT_Templates/Welcome/WelcomePage/resources/Seen.png",
+		"P:/QT_Templates/Welcome/WelcomePage/resources/Unseen.png",
+		"P:/QT_Templates/Welcome/WelcomePage/resources/Line_Account.png"
+	],
+	"LOCK_FILE" : "P:/QT_Templates/Welcome/build-WelcomePage-Desktop_Qt_6_6_1_MSVC2019_64bit-Debug/CMakeFiles/WelcomePage_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "P:/Qt/6.6.1/msvc2019_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "P:/QT_Templates/Welcome/build-WelcomePage-Desktop_Qt_6_6_1_MSVC2019_64bit-Debug/CMakeFiles/WelcomePage_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "P:/QT_Templates/Welcome/WelcomePage/resources.qrc",
+	"VERBOSITY" : 0
+}

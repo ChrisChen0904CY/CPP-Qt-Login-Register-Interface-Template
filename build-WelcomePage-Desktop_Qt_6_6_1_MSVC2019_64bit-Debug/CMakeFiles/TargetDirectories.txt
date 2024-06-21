@@ -1,0 +1,8 @@
+P:/QT_Templates/Welcome/build-WelcomePage-Desktop_Qt_6_6_1_MSVC2019_64bit-Debug/CMakeFiles/WelcomePage.dir
+P:/QT_Templates/Welcome/build-WelcomePage-Desktop_Qt_6_6_1_MSVC2019_64bit-Debug/CMakeFiles/edit_cache.dir
+P:/QT_Templates/Welcome/build-WelcomePage-Desktop_Qt_6_6_1_MSVC2019_64bit-Debug/CMakeFiles/rebuild_cache.dir
+P:/QT_Templates/Welcome/build-WelcomePage-Desktop_Qt_6_6_1_MSVC2019_64bit-Debug/CMakeFiles/list_install_components.dir
+P:/QT_Templates/Welcome/build-WelcomePage-Desktop_Qt_6_6_1_MSVC2019_64bit-Debug/CMakeFiles/install.dir
+P:/QT_Templates/Welcome/build-WelcomePage-Desktop_Qt_6_6_1_MSVC2019_64bit-Debug/CMakeFiles/install/local.dir
+P:/QT_Templates/Welcome/build-WelcomePage-Desktop_Qt_6_6_1_MSVC2019_64bit-Debug/CMakeFiles/WelcomePage_autogen_timestamp_deps.dir
+P:/QT_Templates/Welcome/build-WelcomePage-Desktop_Qt_6_6_1_MSVC2019_64bit-Debug/CMakeFiles/WelcomePage_autogen.dir
