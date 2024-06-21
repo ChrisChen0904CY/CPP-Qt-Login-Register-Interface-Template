@@ -35,7 +35,7 @@
 - For a more detailed demonstration, please watch the video below:
 
 <div style="text-align: center;">
-  <a href="https://www.bilibili.com" target="_blank">👉Click here to watch the demo video👈</a>
+  <a href="https://www.bilibili.com/video/BV1rogDeAERB/?vd_source=057305f6f7570cd5ef98cb1a31358015" target="_blank">👉Click here to watch the demo video👈</a>
 </div>
 
 ## <a id="chapter-1">1. Database Preparation</a>
