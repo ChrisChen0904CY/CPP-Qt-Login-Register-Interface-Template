@@ -35,7 +35,7 @@
 - 更具体的功能演示视频见如下链接：
 
 <div style="text-align: center;">
-  <a href="https://www.bilibili.com" target="\_blank">👉点我跳转演示视频👈</a>
+  <a href="[https://www.bilibili.com](https://www.bilibili.com/video/BV1rogDeAERB/)" target="\_blank">👉点我跳转演示视频👈</a>
 </div>
 
 ## <a id="chapter-1">1. 数据库准备</a>
