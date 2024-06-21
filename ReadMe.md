@@ -7,18 +7,18 @@
 
 ## 目录
 
-- [0. 效果预览](#Chapter 0)
-- [1. 数据库准备](#Chapter 1)
-- [2. 资源 & UI 修改](#Chapter 2)
-- [3. 数据结构以及数据库交互函数的说明](#Chapter 3)
+- [0. 效果预览](#chapter-0)
+- [1. 数据库准备](#chapter-1)
+- [2. 资源 & UI 修改](#chapter-2)
+- [3. 数据结构以及数据库交互函数的说明](#chapter-3)
   - [3.1 默认的数据结构说明](#3.1)
   - [3.2 数据库的交互函数](#3.2)
     - [3.2.1 向数据库增加新数据](#3.2.1)
     - [3.2.2 查询指定列的指定数据](#3.2.2)
-- [4. 登录成功后的页面跳转](#Chapter 4)
+- [4. 登录成功后的页面跳转](#chapter-4)
 - [5. 打赏渠道 & 联系邮箱](#Support)
 
-## <a id="Chapter 0">0. 效果预览</a>
+## <a id="chapter-0">0. 效果预览</a>
 
 - 登陆页面效果如下：
 
@@ -38,7 +38,7 @@
   <a href="https://www.bilibili.com" target="\_blank">👉点我跳转演示视频👈</a>
 </div>
 
-## <a id="Chapter 1">1. 数据库准备</a>
+## <a id="chapter-1">1. 数据库准备</a>
 
 本项目采用的后端数据库为 **`SQLite`** ，因为他是 `C++ Qt 6.x` 内置支持的一种数据库，同时其可视化软件 `SQLite Expert` 的下载和使用都很简单。
 
@@ -68,7 +68,7 @@ QT += sql
 win32:CONFIG(release, debug|release): LIBS += -L$$[QT_INSTALL_LIBS] -lQt6Sql
 win32:CONFIG(debug, debug|release): LIBS += -L$$[QT_INSTALL_LIBS] -lQt6Sqld
 ```
-## <a id="Chapter 2">2. 资源 & UI 修改</a>
+## <a id="chapter-2">2. 资源 & UI 修改</a>
 
 - 资源管理
 
@@ -84,7 +84,7 @@ build-WelcomePage-Desktop_Qt_6_6_1_MSVC2019_64bit-Debug\WelcomePage_autogen\incl
 
 您可以根据您的喜欢或需求利用资源文件和 UI 设计文件随意美化页面。
 
-## <a id="Chapter 3">3. 数据结构以及数据库交互函数的说明</a>
+## <a id="chapter-3">3. 数据结构以及数据库交互函数的说明</a>
 
 ### <a id="3.1">3.1 默认的数据结构说明</a>
 
@@ -171,7 +171,7 @@ QVector<QVector<QString>> WelcomePage::QuerySpecificData(QString col_name, QStri
 
 如上，您可以参照我的写法在 `while` 循环中向 `tmp` 容器中加入您需要的值进行功能拓展。
 
-## <a id="Chapter 4">4. 登录成功后的页面跳转</a>
+## <a id="chapter-4">4. 登录成功后的页面跳转</a>
 
 在 `void WelcomePage::sign_in()` 函数中我将普通用户和管理员的登录事件分开处理，因此在二者的登录成功处都有一段这样的代码，您可以将 `QWidget` 替换成您自己的主窗口类，并在构造时引入用户名、用户类型等信息进行构造来实现登录。
 
