@@ -122,6 +122,8 @@ void WelcomePage::sign_in()
     // 用户名不存在
     if (res.size() == 0) {
         QMessageBox::critical(this, "登录失败", "用户名不存在");
+        // 设置账号输入行警告
+        this->ui->lineEdit->setGraphicsEffect(red_shadow(this));
         return;
     }
     // 查询到一个
@@ -149,11 +151,15 @@ void WelcomePage::sign_in()
         // 若无在库普通用户信息则提示账号不存在
         if (pass_u == "") {
             QMessageBox::critical(this, "登录失败", "用户名不存在");
+            // 设置账号输入行警告
+            this->ui->lineEdit->setGraphicsEffect(red_shadow(this));
             return;
         }
         // 密码检验
         if (pass_u != password) {
             QMessageBox::critical(this, "登录失败", "密码错误");
+            // 设置密码输入行警告
+            this->ui->lineEdit_2->setGraphicsEffect(red_shadow(this));
             return;
         }
         QMessageBox::information(this, "登录成功", "普通用户 <"\
@@ -169,11 +175,15 @@ void WelcomePage::sign_in()
         // 若无在库管理员信息则提示账号不存在
         if (pass_a == "") {
             QMessageBox::critical(this, "登录失败", "用户名不存在");
+            // 设置账号输入行警告
+            this->ui->lineEdit->setGraphicsEffect(red_shadow(this));
             return;
         }
         // 密码检验
         if (pass_a != password) {
             QMessageBox::critical(this, "登录失败", "密码错误");
+            // 设置密码输入行警告
+            this->ui->lineEdit_2->setGraphicsEffect(red_shadow(this));
             return;
         }
         QMessageBox::information(this, "登录成功", "管理员 <"\
