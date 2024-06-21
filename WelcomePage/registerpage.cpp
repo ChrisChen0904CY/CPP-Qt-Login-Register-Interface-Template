@@ -214,7 +214,7 @@ void RegisterPage::read_flip()
 void RegisterPage::readme_link_set()
 {
     this->ui->label_6->setText("<font>我已阅读\
-                                <a href='https://bilibili.com'>《用户需知》</a>\
+                                <a href='https://chrischen0904cy.github.io/CPP-Qt-Login-Register-Interface-Template/user_notice_zh.html'>《用户需知》</a>\
                                 并同意其中所有内容</font>");
     // 允许打开外部链接
     this->ui->label_6->setOpenExternalLinks(true);
