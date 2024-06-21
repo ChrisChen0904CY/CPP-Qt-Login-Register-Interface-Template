@@ -151,6 +151,8 @@ void RegisterPage::register_asked()
     // 进行人机检测
     if (this->ui->lineEdit_4->text().toInt() != this->ans) {
         QMessageBox::critical(this, "验证未通过", "人机验证未通过");
+        // 设置人机验证输入行警告
+        this->ui->lineEdit_4->setGraphicsEffect(red_shadow(this));
         // 刷新验证码再退出
         verify_generate();
         return;
@@ -159,6 +161,10 @@ void RegisterPage::register_asked()
     // 判断两次密码是否一致
     if (this->ui->lineEdit_2->text() != this->ui->lineEdit_3->text()) {
         QMessageBox::critical(this, "注册失败", "两次密码不一致");
+        // 设置密码输入行警告
+        this->ui->lineEdit_2->setGraphicsEffect(red_shadow(this));
+        // 设置密码确认行警告
+        this->ui->lineEdit_3->setGraphicsEffect(red_shadow(this));
         // 刷新验证码再退出
         verify_generate();
         return;
@@ -224,6 +230,8 @@ void RegisterPage::readme_link_set()
 void RegisterPage::account_duplicated_warning()
 {
     QMessageBox::critical(this, "注册失败", "账号名已存在！");
+    // 设置账号输入行警告
+    this->ui->lineEdit->setGraphicsEffect(red_shadow(this));
     // 刷新验证码再退出
     verify_generate();
 }
